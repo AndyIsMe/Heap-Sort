@@ -5,11 +5,9 @@
 
 void random_shuffle(int arr[],int maximum)
 {
-    int i, j, temp;
-    for (i = maximum - 1; i > 0; i--) {
+    int i, temp;
+    for (i = maximum - 1; i > 0; i-- ) {
          temp = arr[i];
-         arr[i] = arr[j];
-         arr[j] = temp;
     }
 }
 
